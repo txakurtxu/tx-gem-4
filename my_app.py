@@ -28,4 +28,4 @@ def v3_formSymptoms():
     return render_template('/index.html', up_info = quote(str(up_info)), res_data = quote(str(res_data)))
 
 if __name__ == "__main__":
-    app.run(host = "0.0.0.0", port = port, debug = True)
+    app.run(host = "0.0.0.0", port = port, debug = False)
