@@ -10,7 +10,7 @@ function init() {
     var seid00 = document.getElementById("seid00");
     for(var i = 0; i < AI_MODS.length; i++) {
         if(i >= seid00.length)    {
-            seid00.options[seid00.length] = new Option(AI_MODS[i].replace("gemini-", "").replace("-flash", ""), i);
+            seid00.options[seid00.length] = new Option(AI_MODS[i], i);
         }
     }
     if(typeof up_info !== 'undefined') {
